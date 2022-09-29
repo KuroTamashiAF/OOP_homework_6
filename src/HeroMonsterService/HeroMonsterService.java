@@ -28,10 +28,12 @@ public class HeroMonsterService  implements HeroAndMostersImpl{
 
         if(totalHealth>1) {
             System.out.printf("\nMonster have %d HP\n", totalHealth);
+
         }
         else {
             System.out.println("\nMonster is dead\n");
             System.out.println("\nYou WIN\n");
+
         }
     }
     @Override
@@ -49,6 +51,7 @@ public class HeroMonsterService  implements HeroAndMostersImpl{
         else {
             System.out.println("\nHero is dead\n");
             System.out.println("\nYou Lose\n");
+
         }
     }
 }
